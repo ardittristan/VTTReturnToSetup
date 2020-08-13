@@ -1,0 +1,14 @@
+{
+	"name": "returntosetup",
+	"title": "Return to Setup",
+	"description": "allows you to return to setup from login screen",
+	"version": "1.0.0",
+	"author": "ardittristan#0001",
+	"esmodules": ["main.js"],
+	 "socket": true,
+    "url": "https://github.com/ardittristan/VTTReturnToSetup",
+    "manifest": "https://raw.githubusercontent.com/ardittristan/VTTReturnToSetup/master/module.json",
+    "download": "https://github.com/ardittristan/VTTReturnToSetup/releases/latest/download/setup.zip",
+	"minimumCoreVersion": "0.5.5",
+	"compatibleCoreVersion": "0.7.0"
+}
