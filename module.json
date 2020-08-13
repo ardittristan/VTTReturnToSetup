@@ -1,8 +1,8 @@
 {
 	"name": "returntosetup",
 	"title": "Return to Setup",
-	"description": "allows you to return to setup from login screen",
-	"version": "1.0.0",
+	"description": "Allows you to return to setup from login screen",
+	"version": "1.0.1",
 	"author": "ardittristan#0001",
 	"esmodules": ["main.js"],
 	 "socket": true,

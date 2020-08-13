@@ -15,7 +15,6 @@ Hooks.once('getUserContextOptions', () => {
     if (game.user.isGM) {
         let createUser = true;
         game.users.forEach(/** @param {User} user */(user) => {
-            console.log(user.name)
             if (ciIncludes(user.name, "return") && ciIncludes(user.name, "to") && ciIncludes(user.name, "setup")) {
                 createUser = false
             }
