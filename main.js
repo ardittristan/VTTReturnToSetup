@@ -3,20 +3,18 @@ Hooks.once('getUserContextOptions', () => {
     const name = game.user.name;
     if (ciIncludes(name, "return") && ciIncludes(name, "to") && ciIncludes(name, "setup")) {
         if (sessionStorage.getItem("returnedToSetup") === "true") {
-            sessionStorage.removeItem("returnedToSetup")
+            sessionStorage.removeItem("returnedToSetup");
             game.logOut();
         } else {
             game.shutDown();
-            sessionStorage.setItem("returnedToSetup", "true")
+            sessionStorage.setItem("returnedToSetup", "true");
         }
-        
-        
     }
     if (game.user.isGM) {
         let createUser = true;
         game.users.forEach(/** @param {User} user */(user) => {
             if (ciIncludes(user.name, "return") && ciIncludes(user.name, "to") && ciIncludes(user.name, "setup")) {
-                createUser = false
+                createUser = false;
             }
         });
         if (createUser) {
