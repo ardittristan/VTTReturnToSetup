@@ -1,7 +1,6 @@
 
 Hooks.once('getUserContextOptions', () => {
-    const name = game.user.name;
-    if (ciIncludes(name, "return") && ciIncludes(name, "to") && ciIncludes(name, "setup")) {
+    if (game.user.name === "Return to Setup") {
         if (sessionStorage.getItem("returnedToSetup") === "true") {
             sessionStorage.removeItem("returnedToSetup");
             game.logOut();
@@ -13,7 +12,7 @@ Hooks.once('getUserContextOptions', () => {
     if (game.user.isGM) {
         let createUser = true;
         game.users.forEach(/** @param {User} user */(user) => {
-            if (ciIncludes(user.name, "return") && ciIncludes(user.name, "to") && ciIncludes(user.name, "setup")) {
+            if (user.name === "Return to Setup") {
                 createUser = false;
             }
         });
@@ -22,14 +21,6 @@ Hooks.once('getUserContextOptions', () => {
         }
     }
 });
-
-/**
- * @param  {String} input
- * @param  {String} query
- */
-function ciIncludes(input, query) {
-    return input.toLowerCase().includes(query.toLowerCase());
-}
 
 async function createUserObject() {
     const user = await User.create({

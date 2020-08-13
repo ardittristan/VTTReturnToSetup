@@ -2,7 +2,7 @@
 	"name": "returntosetup",
 	"title": "Return to Setup",
 	"description": "Allows you to return to setup from login screen",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"author": "ardittristan#0001",
 	"esmodules": ["main.js"],
 	 "socket": true,
