@@ -2,6 +2,8 @@
 
 Adds a way to return to setup from the login screen.
 
+*Keep in mind that this means anyone can enter your setup if you don't have a password on it!*
+
 ## Installation
 
 To install, import this [Manifest](https://raw.githubusercontent.com/ardittristan/VTTReturnToSetup/master/module.json) into your module browser.

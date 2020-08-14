@@ -1,5 +1,9 @@
 # Patch Notes
 
+## Version 1.0.3
+
+* Added disclaimer
+
 ## Version 1.0.2
 
 * Cleanup
