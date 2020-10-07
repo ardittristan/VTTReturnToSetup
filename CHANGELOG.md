@@ -1,5 +1,9 @@
 # Patch Notes
 
+## Version 1.0.4
+
+* Added language files
+
 ## Version 1.0.3
 
 * Added disclaimer

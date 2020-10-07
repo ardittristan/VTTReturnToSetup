@@ -1,3 +1,6 @@
+![GitHub All Releases](https://img.shields.io/github/downloads/ardittristan/VTTReturnToSetup/total)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-Green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TF3LJHWV9U7HN)
+
 # VTT ReturnToSetup
 
 Adds a way to return to setup from the login screen.

@@ -2,9 +2,16 @@
 	"name": "returntosetup",
 	"title": "Return to Setup",
 	"description": "Allows you to return to setup from login screen (recommended to have a password on setup if using this)",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"author": "ardittristan#0001",
 	"esmodules": ["main.js"],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
 	 "socket": true,
     "url": "https://github.com/ardittristan/VTTReturnToSetup",
     "manifest": "https://raw.githubusercontent.com/ardittristan/VTTReturnToSetup/master/module.json",

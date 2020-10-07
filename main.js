@@ -12,7 +12,7 @@ Hooks.once('getUserContextOptions', () => {
     if (game.user.isGM) {
         let createUser = true;
         game.users.forEach(/** @param {User} user */(user) => {
-            if (user.name === "Return to Setup") {
+            if (user.name === game.i18n.localize("rts.ReturnToSetup")) {
                 createUser = false;
             }
         });
@@ -24,7 +24,7 @@ Hooks.once('getUserContextOptions', () => {
 
 async function createUserObject() {
     const user = await User.create({
-        name: "Return to Setup",
+        name: game.i18n.localize("rts.ReturnToSetup"),
         role: CONST.USER_ROLES.GAMEMASTER
     });
 }
