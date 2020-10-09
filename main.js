@@ -1,6 +1,6 @@
 
 Hooks.once('getUserContextOptions', () => {
-    if (game.user.name === "Return to Setup") {
+    if (game.user.name === game.i18n.localize("rts.ReturnToSetup")) {
         if (sessionStorage.getItem("returnedToSetup") === "true") {
             sessionStorage.removeItem("returnedToSetup");
             game.logOut();

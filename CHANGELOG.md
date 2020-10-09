@@ -1,5 +1,9 @@
 # Patch Notes
 
+## Version 1.0.7
+
+* Fix other languages not working
+
 ## Version 1.0.6
 
 * Add Spanish Translation -[lozalojo](https://github.com/lozalojo)
